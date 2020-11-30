@@ -1,8 +1,8 @@
 const request = require('supertest');
-const expect = require('chai').expect;
+const { expect } = require("chai");
 const app = require('./index');
 
-describe('GET /', function () {
+describe('GET /',() => {
   before(() => {
     console.log('before hook');
   });

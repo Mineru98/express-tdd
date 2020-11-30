@@ -1,8 +1,8 @@
 {
-	"scripts": {
-		"start": "node ./src/index.js",
-		"test": "node ./node_modules/mocha/bin/mocha --recursive ./**/*.spec.js -t 3000"
-	},
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "node ./node_modules/mocha/bin/mocha --recursive ./**/*.test.js -t 3000"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
@@ -13,6 +13,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.2.1",
+    "sinon": "^9.2.1",
     "supertest": "^6.0.1"
   }
 }
